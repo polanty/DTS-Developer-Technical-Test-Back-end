@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.* 
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test coverage / Jest
+coverage/
+.jest/
+jest-cache/
+
+# sqlite / database files
+*.sqlite
+*.sqlite3
+*.db
+database.sqlite
+*.db-journal
+*.sqlite-journal
+
+# Build output
+dist/
+build/
+
+# Caches
+.cache/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Archives
+*.tgz
