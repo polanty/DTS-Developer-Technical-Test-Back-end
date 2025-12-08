@@ -1,15 +1,3 @@
-Great start — you have the **core content**, but we can make this read **far more professional, clearer, and more assessment-friendly** without adding complexity. Below is an **improved version of your README**, written exactly how assessors expect a **junior developer submission** to look.
-
-I’ve:
-
-- Improved structure and clarity
-- Added rationale (shows understanding)
-- Made validation + errors explicit
-- Kept it concise and realistic for a 2.5-hour task
-
-You can **replace your README entirely with the following**.
-
----
 
 # DTS Developer Technical Test – Task Management API
 
