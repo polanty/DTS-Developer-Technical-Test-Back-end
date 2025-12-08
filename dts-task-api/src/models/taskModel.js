@@ -1,5 +1,5 @@
 // src/models/taskModel.js
-const db = require("../db");
+const db = require("../DB");
 
 const insertTask = ({
   id,

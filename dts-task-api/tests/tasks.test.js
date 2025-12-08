@@ -1,7 +1,7 @@
 // tests/tasks.test.js
 const request = require("supertest");
 const app = require("../src/index");
-const db = require("../src/db");
+const db = require("../src/DB");
 
 afterAll(() => {
   // close db if needed (better-sqlite3 doesn't expose close, but you can unlink the file)
