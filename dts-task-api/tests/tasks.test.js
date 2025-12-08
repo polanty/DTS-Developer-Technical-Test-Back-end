@@ -3,10 +3,6 @@ const request = require("supertest");
 const app = require("../src/index");
 const db = require("../src/DB");
 
-afterAll(() => {
-  // close db if needed (better-sqlite3 doesn't expose close, but you can unlink the file)
-});
-
 describe("POST /tasks", () => {
   test("creates a task successfully", async () => {
     const future = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString();
